@@ -15,7 +15,7 @@ import ContactFormModal from './components/ConsultStepsContactFormModal';
 
 function Header({ contactOpen, setContactOpen } :any) {
   return (
-    <header className="bg-white shadow sticky top-0 z-40">
+    <header className="bg-white shadow sticky top-0 z-40 px-10">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img src={logoDoctor} alt="WeClinic Logo" className="h-10 w-auto" />
